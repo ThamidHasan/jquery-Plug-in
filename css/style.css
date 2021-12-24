@@ -1,0 +1,78 @@
+.title{
+	text-align: center;
+	padding: 20px 0;
+	cursor: pointer;
+}
+.content{
+	text-align: center;
+	display: none;
+	padding: 20px 10px;
+}
+#dragable{
+	width: 150px; height: 150px; padding: 0.5em;
+}
+.ss{
+	height: 300px;
+	width: auto;
+	background-color: red;
+}
+.sc{
+	height: 450px;
+	width: auto;
+	background-color: red;
+}
+#draggable { 
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px 10px 10px 0; 
+}
+ #droppable { 
+  	width: 150px; 
+  	height: 150px; 
+  	padding: 0.5em; 
+  	float: left; 
+  	margin: 10px; 
+  }
+#feedback { 
+	font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+  	background: #FECA40; 
+  }
+  #selectable .ui-selected { 
+  	background: #F39814; 
+  	color: white; 
+  }
+  #selectable { 
+  	list-style-type: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #selectable li { 
+  	margin: 3px; 
+  	padding: 0.4em; 
+  	font-size: 1.4em;  
+  }
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%; 
+}
+  #sortable li { 
+  	margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+  	padding-left: 1.5em; 
+  	font-size: 1.4em; 
+  }
+  #sortable li span { 
+  	position: absolute; 
+  	margin-left: -1.3em; 
+  }
+  .ui-progressbar .ui-progressbar-value {
+    margin: -25px -12px;
+    height: 100%;
+}
